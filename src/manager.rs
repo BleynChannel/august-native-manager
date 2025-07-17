@@ -22,7 +22,7 @@ impl NativePluginManager {
 }
 
 impl<'a, O: Send + Sync> Manager<'a, O, StdInfo> for NativePluginManager {
-    fn format(&self) -> &str {
+    fn format(&self) -> &'static str {
         "npl"
     }
 
