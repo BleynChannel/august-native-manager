@@ -13,8 +13,9 @@ mod main {
     fn load_plugin() {
         let mut loader = loader_init();
 
-        loader
-            .load_plugin_now(get_plugin_path("native_plugin", "1.0.0").to_str().unwrap())
-            .unwrap();
+        // TODO: Change soon
+        // loader
+        //     .load_plugin_now(get_plugin_path("native_plugin", "1.0.0").to_str().unwrap())
+        //     .unwrap();
     }
 }
