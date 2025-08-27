@@ -1,6 +1,6 @@
 use std::{collections::HashMap, fs, path::PathBuf};
 
-use august_plugin_system::utils::ManagerResult;
+use plux::utils::ManagerResult;
 use semver::VersionReq;
 use serde::{Deserialize, Serialize};
 

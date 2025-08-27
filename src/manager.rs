@@ -1,7 +1,7 @@
 use std::env::consts::OS;
 
 use crate::{config::NativeConfig, Plugin};
-use august_plugin_system::{
+use plux::{
     context::LoadPluginContext, utils::ManagerResult, Api, Bundle, Depend, Manager,
     Plugin as StdPlugin, RegisterPluginContext, StdInfo,
 };

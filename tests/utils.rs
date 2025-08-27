@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use august_native_manager::NativePluginManager;
-use august_plugin_system::{function::FunctionOutput, Loader, StdInfo};
+use plux::{function::FunctionOutput, Loader, StdInfo};
 
 pub fn loader_init<'a>() -> Loader<'a, FunctionOutput, StdInfo> {
     let mut loader = Loader::new();
